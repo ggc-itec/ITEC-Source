@@ -1,2 +1,2 @@
-derp-ninja
+Source Code for ITEC Programming classes
 ==========
