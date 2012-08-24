@@ -1,4 +1,4 @@
-package Intermediate.week1;
+package week1;
 
 public class HelloWorld {
 
