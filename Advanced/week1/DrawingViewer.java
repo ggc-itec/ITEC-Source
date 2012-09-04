@@ -1,6 +1,7 @@
 package week1;
 
 import java.awt.BorderLayout;
+import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -10,9 +11,7 @@ public class DrawingViewer {
 
 	private Drawing d = new Drawing();
 
-	
-	class MyKeyListener implements KeyListener {
-
+	class MyKeyListener extends KeyAdapter {
 		@Override
 		public void keyPressed(KeyEvent e) {
 			// TODO complete DOWN and LEFT
@@ -20,20 +19,7 @@ public class DrawingViewer {
 				d.moveY();
 			if(e.getKeyCode() == KeyEvent.VK_RIGHT)
 				d.moveX();
-		}
-
-		@Override
-		public void keyReleased(KeyEvent arg0) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		@Override
-		public void keyTyped(KeyEvent arg0) {
-			// TODO Auto-generated method stub
-			
-		}
-		
+		}		
 	}
 	
 	public DrawingViewer() {

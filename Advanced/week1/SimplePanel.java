@@ -23,7 +23,7 @@ public class SimplePanel extends JPanel {
 		super(new FlowLayout());
 		JLabel label;
 		try {
-			URL url = new URL("insert a url here");
+			URL url = new URL("http://i.imgur.com/gm8yMh.jpg");
 			BufferedImage file = ImageIO.read(url);
 			ImageIcon icon = new ImageIcon(file);
 			label = new JLabel(icon);
@@ -40,7 +40,7 @@ public class SimplePanel extends JPanel {
 				try {
 					JFrame frame = new JFrame();
 					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-					frame.setLayout(new FlowLayout());
+					frame.setLayout(new BorderLayout());
 					frame.add(new SimplePanel(),BorderLayout.CENTER);
 					frame.pack();
 					frame.setVisible(true);

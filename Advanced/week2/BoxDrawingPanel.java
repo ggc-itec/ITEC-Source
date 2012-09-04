@@ -23,7 +23,7 @@ public class BoxDrawingPanel {
 	public BoxDrawingPanel() {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.addMouseListener(new MyMouseAdapter());
+		frame.addMouseListener(null);		
 		frame.setLayout(new BorderLayout());
 		frame.add(drawing,BorderLayout.CENTER);
 		frame.setSize(width,height);
