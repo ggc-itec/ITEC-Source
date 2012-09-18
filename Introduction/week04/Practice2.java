@@ -1,6 +1,6 @@
-package week4;
+package week04;
 
-public class Practice {
+public class Practice2 {
   
   
   public static void main(String[] args) { 
