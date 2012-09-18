@@ -1,4 +1,4 @@
-package week3;
+package week03;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
