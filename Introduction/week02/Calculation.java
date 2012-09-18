@@ -1,4 +1,4 @@
-package week2;
+package week02;
 
 /**
  * Auto Generated Java Class.
