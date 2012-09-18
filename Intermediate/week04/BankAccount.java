@@ -1,4 +1,4 @@
-package week4;
+package week04;
 
 // From Cay Horstmann's Big Java 4th edition
 
