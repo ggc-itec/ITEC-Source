@@ -1,4 +1,4 @@
-package week1;
+package week01;
 
 // hello world
 // hello class welcome to ITEC 2120
