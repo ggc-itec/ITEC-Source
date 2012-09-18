@@ -1,4 +1,4 @@
-package week3;
+package week03;
 
 import javax.swing.JOptionPane;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package week3;
+package week03;
 
 public class StringExample {
   
