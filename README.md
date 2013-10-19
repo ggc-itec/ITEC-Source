@@ -1,4 +1,4 @@
-Source Code for ITEC Programming classes
+Samples codes from ITEC programming sequence
 ==========
 
 ## Running the sample codes
