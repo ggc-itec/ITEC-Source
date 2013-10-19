@@ -1,4 +1,4 @@
-Samples codes from ITEC programming sequence
+Sample codes from ITEC programming sequence
 ==========
 
 ## Running the sample codes
