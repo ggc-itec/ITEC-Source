@@ -1,4 +1,4 @@
-package week7;
+package week07;
 
 /**
  * A class that holds a grade for a graded activity.
