@@ -3,7 +3,7 @@ Source Code for ITEC Programming classes
 
 ## Running the sample codes
 
-```shell
+```bash
 // compile source with ant
 ant
 
