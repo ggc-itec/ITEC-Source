@@ -1,0 +1,23 @@
+
+<project name="ITEC 2120 Source buildfile" default="build">
+
+  <property name="intro.src" value="." />
+
+  <path id="classpath">
+    <fileset dir=".">
+      <include name="jars/junit-4.11.jar" />
+      <include name="jars/antlr-runtime-3.4.jar" />
+      <include name="jars/sqljet-1.1.8.jar" />
+    </fileset>
+  </path>
+
+  <target name="build">
+    <echo>Compiling Source files... </echo>
+    <javac srcdir="${intro.src}" />
+  </target>
+
+  <target name="clean">
+    <delete dir="." includes="**/*.class"/>
+  </target>
+
+</project>

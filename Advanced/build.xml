@@ -1,0 +1,26 @@
+
+<project name="ITEC 3150 Source buildfile" default="build">
+
+  <property name="adv.src" value="." />
+
+  <path id="classpath">
+    <fileset dir=".">
+      <include name="jars/junit-4.11.jar" />
+      <include name="jars/antlr-runtime-3.4.jar" />
+      <include name="jars/sqljet-1.1.8.jar" />
+      <include name="jars/hamcrest-core-1.3.jar" />
+    </fileset>
+  </path>
+
+  <target name="build">
+    <echo>Compiling Source files... </echo>
+    <javac srcdir="${adv.src}">
+      <classpath refid="classpath" />
+    </javac>
+  </target>
+
+  <target name="clean">
+    <delete dir="." includes="**/*.class"/>
+  </target>
+
+</project>
